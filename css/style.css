@@ -40,29 +40,25 @@ a {
 
 /* NAV */
 .header__nav {
-  margin: 0 240px 0 228px;
-  margin-bottom: 102px;
-}
-
-.header__nav--ul {
-  list-style: none;
+  margin: 0 240px 102px 228px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.nav-link-home a {
+.header__nav--home a {
   color: var(--HEADER-FONT-COLOR);
   font-size: 45px;
   font-weight: 700;
 }
 
-.nav-links {
+.header__nav--ul {
+  list-style: none;
   display: flex;
   gap: 3rem;
 }
 
-.nav-links a {
+.header__nav--ul a {
   color: #424242;
   font-size: 18px;
   font-weight: 500;
