@@ -209,7 +209,7 @@ a {
 }
 
 .more-features-types > div > p {
-  width: 514px;
+  max-width: 514px;
   color: #727272;
   line-height: 26px;
 }
@@ -218,6 +218,85 @@ a {
   width: 50%;
   padding-bottom: 4rem;
   border-radius: 8px;
+  position: relative;
+}
+
+.experience {
+  background-color: #ff900e;
+  color: #fff;
+  position: absolute;
+  bottom: -16px;
+  right: 24rem;
+  padding: 30px 42px;
+  border-radius: 8px;
+}
+
+.experience > h2,
+.experience > p {
+  text-align: center;
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 70px;
+}
+
+.experience > p {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+/* FACTS SECTION */
+.facts {
+  margin: 0 240px 180px;
+}
+
+.facts > h3 {
+  color: #131313;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.facts > p {
+  width: 542px;
+  color: #727272;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.facts-container {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.facts-container > div {
+  border: 1px solid #ff900e;
+  border-radius: 8px;
+  padding: 45px 40px 60px;
+}
+.facts-container > div > div {
+  margin: 0 auto;
+}
+
+.facts-container > div > p {
+  text-align: center;
+}
+
+.fact-img-container {
+  width: 46px;
+  height: 46px;
+}
+
+.counting {
+  color: #424242;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.achievement {
+  color: #727272;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .hide {
@@ -322,5 +401,42 @@ a {
   }
   .more-features-img {
     width: 100%;
+  }
+  .experience {
+    bottom: 30px;
+    right: 0;
+    padding: 0.25rem;
+    width: 50%;
+  }
+  .experience > h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .experience > p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  /* facts */
+  .facts {
+    margin: 6rem 1rem 0;
+  }
+  .facts > h3 {
+    margin: 0 auto 1.5rem;
+    text-align: center;
+  }
+  .facts > p {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .facts-container {
+    display: block;
+  }
+  .facts-container > div {
+    padding: 20px 20px 40px;
+    width: 75%;
+    margin-inline: auto;
+    margin-bottom: 1rem;
   }
 }
